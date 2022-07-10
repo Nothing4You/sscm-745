@@ -1,0 +1,12 @@
+[build-system]
+requires = [
+    # Essentials
+    "setuptools >= 42",
+
+    # Plugins
+    "setuptools_scm[toml] >= 7.0.4",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "demo/_scm_version.py"
